@@ -1,9 +1,18 @@
 # 04/07/2023
 # Python Class 1-3
 
-print("Hello World!")
 print("I'm a Python programmer!")
 print("I have no Enemies!")
+
+name = "Kaiky"
+age = 19
+weight = 79.5
+print(name, age, weight)
+
+name = input("What's your name? ")
+age = input("How old are you? ")
+weight = input("What's your weight? ")
+print("\nName:", name,  "\nAge:", age, "\nWeight:", weight)
 
 print("\n-Sum-")
 print("7 + 4 =", 7 + 4)
@@ -25,13 +34,3 @@ print("7 % 4 =", 7 % 4)
 
 print("\n-Exponent-")
 print("7 ** 4 = ", 7 ** 4)
-
-name = "Kaiky"
-age = 19
-weight = 79.5
-print(name, age, weight)
-
-name = input("What's your name? ")
-age = input("How old are you? ")
-weight = input("What's your weight? ")
-print("\nName:", name,  "\nAge:", age, "\nWeight:", weight)
